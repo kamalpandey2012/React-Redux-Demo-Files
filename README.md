@@ -68,7 +68,7 @@
     {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml'}
 ```
 
-1.4 Editor config
+1.3 Editor config
 
 ```
 # EditorConfig is awesome: http://EditorConfig.org
