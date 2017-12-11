@@ -227,7 +227,47 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
+	border-collapslse: collapse;
 	border-spacing: 0;
 }
+```
+
+1.6 Post data
+
+```
+  "posts": [
+    {
+      "title": "Why Webpack over Gulp",
+      "description": "Gulp has the largest plugin system, but it's more of a general purpose task manager",
+      "upvotes": "20",
+      "author_id": "2",
+      "author_title": "kamal pandey",
+      "content": "Phasellus orci velit, egestas convallis vestibulum accumsan, lobortis non enim. Ut leo purus, fringilla in elementum ac, gravida at sem. Nunc venenatis lectus dui, id cursus nisi auctor quis. Pellentesque hendrerit orci vel eros dapibus, vel rhoncus nunc semper. Proin viverra erat enim, sed sollicitudin ante congue quis. Donec sodales vestibulum cursus. In vitae massa porttitor, laoreet dui a, viverra erat. Quisque tristique quam tellus, eu condimentum turpis feugiat pulvinar.",
+      "category_id": "23",
+      "category_title": "Web development"
+    },
+    {
+      "title": "Google leads in the race to dominate artificial intelligence",
+      "description": "Tech giants are investing billions in a transformative technology",
+      "upvotes": "20",
+      "author_id": "4",
+      "author_title": "The Economist",
+      "content": "Commanding the plot lines of Hollywood films, covers of magazines and reams of newsprint, the contest between artificial intelligence (AI) and mankind draws much attention. Doomsayers warn that AI could eradicate jobs, break laws and start wars. But such predictions concern the distant future. The competition today is not between humans and machines but among the world’s technology giants, which are investing feverishly to get a lead over each other in AI.",
+      "category_id": "24",
+      "category_title": "Artificial Intelligence"
+    },
+    {
+      "title": "A Year with the MacBook Pro TouchBar",
+      "description": "How I’ve learned to live with — even love — a flawed machine",
+      "upvotes": "10",
+      "author_id": "5",
+      "author_title": "Cory House",
+      "content": "I previously owned a 2015 13" MacBook Pro, but purchased a 15" Macbook Pro TouchBar in Nov. 2016. I posted an initial review after one week.
+The results after one year? It’s been a mixed bag, but here’s the tl;dr:
+There are keyboard and reliability issues, but all considered I prefer it over the 2015.",
+      "category_id": "21",
+      "category_title": "Lap Machines"
+    }, 
+  ]
+
 ```
